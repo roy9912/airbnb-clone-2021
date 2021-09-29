@@ -1,0 +1,54 @@
+.elxplore-nearby {
+  margin: 15px 20px;
+}
+
+.elxplore-nearby__header {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.elxplore-nearby__cities__all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.elxplore-nearby__cities img {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+}
+
+.elxplore-nearby__cities {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px;
+  width: 10%;
+}
+
+.elxplore-nearby__cities__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.elxplore-nearby__cities__text :first-child {
+  font-weight: 600;
+}
+
+.elxplore-nearby__cities__text span {
+  width: 120px;
+}
+
+@media screen and (max-width: 950px) {
+  .elxplore-nearby__cities--fourth-column {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .elxplore-nearby__cities--third-column {
+    display: none;
+  }
+}

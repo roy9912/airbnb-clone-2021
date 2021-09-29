@@ -1,0 +1,23 @@
+@import "reset.css";
+@import "variables.css";
+
+/* component */
+@import "components/status-bar.css";
+@import "components/search-bar.css";
+@import "components/main.css";
+@import "components/second-main.css";
+
+body {
+  color: #2e2e37;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  height: 1000vh;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding-top: 10px;
+  margin-top: 150px;
+  background-color: white;
+  height: 700vh;
+}
